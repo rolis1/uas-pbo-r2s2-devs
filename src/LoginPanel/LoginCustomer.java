@@ -8,12 +8,12 @@ package LoginPanel;
  *
  * @author rolis
  */
-public class LoginCustomer1 extends javax.swing.JPanel {
+public class LoginCustomer extends javax.swing.JPanel {
 
     /**
      * Creates new form LoginCustomer
      */
-    public LoginCustomer1() {
+    public LoginCustomer() {
         initComponents();
     }
 
@@ -138,12 +138,12 @@ public class LoginCustomer1 extends javax.swing.JPanel {
                     .addComponent(UsernameField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(79, 79, 79)
                 .addComponent(btnMasuk)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 109, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 169, Short.MAX_VALUE)
                 .addComponent(BackBtn)
                 .addContainerGap())
         );
 
-        jPanel1.add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 346, 500));
+        jPanel1.add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 350, 560));
 
         add(jPanel1, java.awt.BorderLayout.CENTER);
     }// </editor-fold>//GEN-END:initComponents
