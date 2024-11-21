@@ -158,7 +158,7 @@ public class LoginCustomer extends javax.swing.JPanel {
 
         // Validasi input kosong
         if (nama.isEmpty() || noMeja.isEmpty()) {
-            JOptionPane.showMessageDialog(this, "Username dan Password tidak boleh kosong.", "Error", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(this, "Nama dan Nomor Meja tidak boleh kosong!!.", "Error", JOptionPane.ERROR_MESSAGE);
             return;
         }
 
